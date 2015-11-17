@@ -66,6 +66,7 @@ $(function(){
     }else{
         // 性能原因移动端不调用canvas画水滴，用背景色代替。
         $(".container").find(".introduce").addClass("bg-green");
+        $("#rainImg").remove();
     }
 
     $(".toggle-contact").on("click",function(){
